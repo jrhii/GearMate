@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/server/dist
+node_modules
+/data/strava_config
+/.vscode

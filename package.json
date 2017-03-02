@@ -1,0 +1,26 @@
+{
+  "name": "gear-mate",
+  "version": "1.0.0",
+  "description": "Intended to pull gear data from Stava for information on lifespan and tune up scheduling.  May be hampered by API limitations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nf start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrhii/GearMate/"
+  },
+  "author": "James R Harter II",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-latest": "^6.22.0",
+    "foreman": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "strava-v3": "^1.12.1"
+  }
+}
